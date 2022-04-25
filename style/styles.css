@@ -1,12 +1,13 @@
 body {
     background-color: #1f2937;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 0 100px;
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: lightgrey;
 }
 
 a:hover {
@@ -26,8 +27,137 @@ a:hover {
 }
 
 .logo {
-    color: white;
+    color: #f9faf8;
     display: flex;
     align-items: center;
     font-weight: 900;
+    font-size: 24px;
+}
+
+.section1 img {
+    width: 600px;
+    height: 200px;
+}
+
+.section1 {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 10px;
+
+}
+
+.section1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.section1 p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signUp {
+    padding: 5px 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: #3882f6;
+    width: 80px;
+}
+
+.section1title {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 {
+    background-color: white;
+    padding: 10px 200px;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+
+.section2box {
+    padding-top: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px blue solid;
+    border-radius: 20px;
+}
+
+.boxContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxContent p {
+    padding: 0 20px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section3content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px 200px;
+}
+
+.inspration {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.section4 {
+    background-color: white;
+    padding: 60px 100px;
+}
+
+.anotherSignup {
+    border: 1px white solid;
+    color: white;
+    width: 70px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section4content {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
 }
